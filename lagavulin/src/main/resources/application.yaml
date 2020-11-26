@@ -1,0 +1,15 @@
+# object==>
+#student:
+#  name: Jack
+#  age: 29
+
+# inline==>
+#people: {name: Tom, age: 33}
+
+# array==>
+#pets:
+#  - cat
+#  - dog
+#  - pig
+#
+#animals: [cat, dog, horse]
