@@ -13,3 +13,17 @@
 #  - pig
 #
 #animals: [cat, dog, horse]
+
+dog:
+  name: cheese
+  age: 4
+  happy: false
+  birth: 2019/11/02
+  maps: {k1: v1, k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  person:
+    name: jack
+    age: 31
