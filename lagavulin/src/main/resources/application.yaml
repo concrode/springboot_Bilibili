@@ -14,6 +14,27 @@
 #
 #animals: [cat, dog, horse]
 
+
+server:
+  port: 8081
+spring:
+  profiles:
+    active: test
+
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+---
+# It runs testing classes in test/java folder
+server:
+  port: 8083
+spring:
+  profiles: test
+
+---
 dog:
   name: cheese
   age: ${random.int}
