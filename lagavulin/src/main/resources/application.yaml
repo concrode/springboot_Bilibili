@@ -14,12 +14,14 @@
 #
 #animals: [cat, dog, horse]
 
+debug: true
+
 
 server:
   port: 8081
 spring:
   profiles:
-    active: test
+    active: dev
 
 ---
 server:
